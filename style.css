@@ -1,0 +1,47 @@
+a{
+	/* set none */
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	list-style: none;
+}
+
+.padding-first{
+	padding-left: 50px;
+}
+
+.padding-back{
+	padding-right: 50px;
+}
+
+.body{
+	text-align: center;
+	margin: auto;
+	justify-content: center;
+	margin-top: 10%;
+}
+body{
+	background-color: antiquewhite;
+}
+
+.main{
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.infomation{
+	padding-top: 50px;
+	max-width: 70%;
+	margin: auto;
+	text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+	.fix{
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+}
